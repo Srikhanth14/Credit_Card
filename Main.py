@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import home,Dataset,Visualization,form
 
-st.set_page_config(page_title="Credit Card Fraud Detection", page_icon="credit-card", layout="wide")
+st.set_page_config(page_title="Credit Card Fraud Detection",page_icon="💳",layout="wide")
 selected = option_menu(
                         menu_title="Credit Card Fraud",
                         options=["Home", "Data Overview", "Visualization","Fraud Detection",],
