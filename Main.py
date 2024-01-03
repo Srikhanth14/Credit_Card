@@ -5,7 +5,7 @@ import home,Dataset,Visualization,form
 st.set_page_config(page_title="Credit Card Fraud Detection",page_icon="💳",layout="wide")
 selected = option_menu(
                         menu_title="Credit Card Fraud",
-                        options=["Home", "Data Overview", "Visualization","Fraud Detection",],
+                        options=["Home", "Data Overview", "Visualization","Fraud Detection"],
                         icons=["house-slash-fill", "database-slash", "radioactive","building-fill-check"],
                         menu_icon="credit-card-2-front",
                         default_index=0,
