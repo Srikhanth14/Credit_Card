@@ -25,7 +25,7 @@ def home():
     # About You
     st.subheader("About You:")
     st.write("Curious about the mind behind the project? I'm SRIKHANTH R, a data enthusiast dedicated to unraveling insights from complex datasets.")
-    st.write("Feel free to connect with me on [LinkedIn](linkedin.com/in/srikhanth-r) or explore more projects on my [portfolio](datascienceportfol.io/srikhanth_r). Let's together create a safer financial environment!")
+    st.write("Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/srikhanth-r) or explore more projects on my [portfolio](https://www.datascienceportfol.io/srikhanth_r). Let's together create a safer financial environment!")
 
     # Call to Action
     st.write("Ready to explore the world of credit card fraud detection? Head over to the **Fraud Prediction** page to input transaction details and get predictions!")
