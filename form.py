@@ -15,21 +15,21 @@ from joblib import load
 
 # Function to make predictions
 def make_prediction(input_data):
-
-loaded_model=load('credit_trained_model.joblib')
-# Change the input data to a numpy array
-input_data_np_array = np.asarray(input_data)
-
-# Reshape the numpy array as we are predicting for only one instance
-input_data_reshaped = input_data_np_array.reshape(1, -1)
-
-# Make predictions using the trained model
-columns = ['V1', 'V2', 'V3', 'V4', 'normalized_amount']
-input_data_reshaped_df = pd.DataFrame(input_data_reshaped, columns=columns)
-
-prediction = loaded_model.predict(input_data_reshaped_df)
-
-return prediction[0]
+    
+    loaded_model=load('credit_trained_model.joblib')
+    # Change the input data to a numpy array
+    input_data_np_array = np.asarray(input_data)
+    
+    # Reshape the numpy array as we are predicting for only one instance
+    input_data_reshaped = input_data_np_array.reshape(1, -1)
+    
+    # Make predictions using the trained model
+    columns = ['V1', 'V2', 'V3', 'V4', 'normalized_amount']
+    input_data_reshaped_df = pd.DataFrame(input_data_reshaped, columns=columns)
+    
+    prediction = loaded_model.predict(input_data_reshaped_df)
+    
+    return prediction[0]
 
 # Streamlit input form
 def form():
