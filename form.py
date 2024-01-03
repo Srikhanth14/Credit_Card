@@ -30,7 +30,7 @@ def make_prediction(input_data):
     return prediction[0]
 
 # Streamlit input form
-def form():
+def input_form():
     st.title("Credit Card Fraud Detection")
     st.write("Enter transaction details to check for fraud.")
     
