@@ -19,4 +19,4 @@ if selected == "Data Overview":
 if selected == "Visualization":
     Visualization.charts()
 if selected == "Fraud Detection":
-   form.make_prediction()
+   form.form()
