@@ -15,7 +15,6 @@ from joblib import load
 
 # Function to make predictions
 def make_prediction(input_data):
-    
     loaded_model=load('credit_trained_model.joblib')
     # Change the input data to a numpy array
     input_data_np_array = np.asarray(input_data)
