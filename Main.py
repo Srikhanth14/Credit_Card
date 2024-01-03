@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  3 19:05:18 2024
-
-@author: ELCOT
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan  2 17:28:59 2024
-
-@author: ELCOT
-"""
-
 import streamlit as st
 from streamlit_option_menu import option_menu
 import home,Dataset,Visualization,form
