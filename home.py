@@ -8,7 +8,7 @@ import streamlit as st
 from PIL import Image
 def home():
 
-    st.image(Image.open('fraud.jpg',use_column_width=True))
+    st.image(Image.open('fraud.jpg'),use_column_width=True)
     # Introduction
     st.title("Credit Card Fraud Detection App")
     st.write("Welcome to the Credit Card Fraud Detection App, where advanced machine learning techniques help identify fraudulent transactions.")
