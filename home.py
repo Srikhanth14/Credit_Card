@@ -5,7 +5,10 @@ Created on Wed Jan  3 18:54:16 2024
 @author: ELCOT
 """
 import streamlit as st
+from PIL import Image
 def home():
+
+    st.image(Image.open('Credit_Card.jpg',use_column_width=True)
     # Introduction
     st.title("Credit Card Fraud Detection App")
     st.write("Welcome to the Credit Card Fraud Detection App, where advanced machine learning techniques help identify fraudulent transactions.")
